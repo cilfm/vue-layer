@@ -193,12 +193,13 @@ export default {
     },
     max() {
       //最大化窗口
-      let height = document.documentElement.clientHeight;
+      let height = window.top.document.documentElement.clientHeight;
       if (height % 2 === 1) {
         height += 1;
       }
       this.addStyle = {
         overflow: "hidden",
+        top: '50%',
         left: "50%",
         width: "100%",
         height: height + "px",
@@ -236,8 +237,8 @@ export default {
           //左侧边界
           left = docOffsetWidth;
         }
-        let docHeight = document.documentElement.clientHeight;
-        let docWidth = document.documentElement.clientWidth;
+        let docHeight = window.top.document.documentElement.clientHeight;
+        let docWidth = window.top.document.documentElement.clientWidth;
         if (top >= docHeight - docOffsetHeight) {
           //底部边界
           top = docHeight - docOffsetHeight;
@@ -285,12 +286,12 @@ export default {
         const clientRect = o.getBoundingClientRect();
 
         //右边界
-        let docWidth = document.documentElement.clientWidth;
+        let docWidth = window.top.document.documentElement.clientWidth;
         if (clientRect.right > docWidth) {
           oWidth = docWidth - 20;
         }
         //底边界
-        // let docHeight = document.documentElement.clientHeight;
+        // let docHeight = window.top.document.documentElement.clientHeight;
         // console.log('clientRect', clientRect, docHeight);
         // if (clientRect.right > docHeight) {
         //   oHeight = docHeight - 20;
