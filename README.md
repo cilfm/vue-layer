@@ -230,16 +230,6 @@ export default {
 ### 样式调整
 该包的css都为vl-notice开头， 需要重写css样式，覆盖即可
 
-### 觉的作者付出的时间和精力有价值，就给作者买杯咖啡吧
- <img src="http://static.groot.zuoyanit.com/wx.jpg" width="350" height="350" />
-
- ### 入群交流
-
- <img src="http://static.groot.zuoyanit.com/wxp.jpg" width="350" height="350" />
-
-
-
-
  ### 更新日志
 
  <a href="https://github.com/zuoyanart/vue-layer/releases">更新日志</a>
