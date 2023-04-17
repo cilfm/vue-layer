@@ -2,10 +2,10 @@
 [![npm](https://img.shields.io/bundlephobia/minzip/vue-layer.svg)](https://www.npmjs.com/package/vue-layer)
 [![npm](https://img.shields.io/github/package-json/v/zuoyanart/vue-layer.svg)](https://www.npmjs.com/package/vue-layer)
 [![npm](https://img.shields.io/npm/l/vue-layer.svg)](https://www.npmjs.com/package/vue-layer)
-## vue-layer-inf
+## vue-layer-wj
 install
 ```shell
-npm install vue-layer-inf
+npm install vue-layer-wj
 ```
       // "eslint:recommended"
 ## Quick Start
@@ -13,8 +13,8 @@ npm install vue-layer-inf
 在程序入口添加
 ```js
 import Vue from 'vue';
-import layer from 'vue-layer'
-import 'vue-layer/lib/vue-layer.css';
+import layer from 'vue-layer-wj'
+import 'vue-layer-wj/lib/vue-layer.css';
 
 Vue.prototype.$layer = layer(Vue);
 ```
