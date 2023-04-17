@@ -1,13 +1,13 @@
 {
-  "name": "vue-layer",
-  "version": "1.2.5",
+  "name": "vue-layer-inf",
+  "version": "1.0.1",
   "description": "vue layer component",
   "private": false,
   "scripts": {
     "start": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name vue-layer --dest lib packages/layer/index.js",
+    "lib": "vue-cli-service build --target lib --name vue-layer-inf --dest vue-layer-inf packages/layer/index.js",
     "lint": "vue-cli-service lint"
   },
   "main": "./lib/vue-layer.umd.min.js",
@@ -52,19 +52,10 @@
     "> 1%",
     "last 2 versions"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zuoyanart/vue-layer.git"
-  },
   "keywords": [
     "vue",
     "layer",
     "vue-layer",
-    "zuoyan"
-  ],
-  "author": "左盐/huabinglan@163.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zuoyanart/vue-layer/issues"
-  }
+    "vue-layer-inf"
+  ]
 }
