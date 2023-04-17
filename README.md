@@ -230,6 +230,3 @@ export default {
 ### 样式调整
 该包的css都为vl-notice开头， 需要重写css样式，覆盖即可
 
- ### 更新日志
-
- <a href="https://github.com/zuoyanart/vue-layer/releases">更新日志</a>
