@@ -1,0 +1,15 @@
+{
+  "name": "vue-layer-wj",
+  "version": "1.0.2",
+  "description": "基于zuoyanart/vue-layer1.2.5的wujie框架适配版",
+  "main": "./lib/vue-layer.umd.min.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vue", "vue-layer", "vue-layer-wj"],
+  "author": "https://github.com/cilfm/vue-layer",
+  "license": "ISC"
+}

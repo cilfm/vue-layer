@@ -1,5 +1,5 @@
 {
-  "name": "vue-layer-inf",
+  "name": "vue-layer-wj",
   "version": "1.0.1",
   "description": "vue layer component",
   "private": false,
@@ -7,7 +7,7 @@
     "start": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name vue-layer-inf --dest vue-layer-inf packages/layer/index.js",
+    "lib": "vue-cli-service build --target lib ./packages/layer/index.js --dest vue-layer-wj/lib --name vue-layer",
     "lint": "vue-cli-service lint"
   },
   "main": "./lib/vue-layer.umd.min.js",
